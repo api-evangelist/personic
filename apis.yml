@@ -1,4 +1,16 @@
 aid: personic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/personic.png
 name: Personic
 description: Personic is a company surfaced as a portfolio company of battery-ventures and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -20,3 +32,14 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'personic.io is a bare Vite SPA splash page (title "Personic: Because Life
+    Has Better Things for You") with no product content, links, docs, or API surface;
+    all /.well-known/, /openapi.json and /llms.txt paths return the SPA index.html
+    (false 200s); api/docs/developers/app/status subdomains do not resolve; identity
+    vs the Battery Ventures portfolio entry unconfirmed (WebSearch budget exhausted).
+    No real artifacts could be created without fabrication.'
